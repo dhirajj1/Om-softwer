@@ -1,8 +1,21 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  /* Only works if there is nothing absolutely
+  positioned in relation to body */
+  overflow: hidden;
+}
+
 section.navbar-section,
 section.business-section,
 section.testimonial-section {
   background-color: #e7f5ff;
   padding-bottom: 100px;
+}
+.navbar {
+  position: relative;
 }
 .nav-link:link,
 .nav-link:visited {
@@ -22,9 +35,9 @@ section.testimonial-section {
   font-size: 35px;
   font-weight: 600;
 }
-.container_navbar span strong {
+/* .container_navbar span strong {
   color: steelblue;
-}
+} */
 .container_navbar ul {
   font-size: 18px;
 }
@@ -36,6 +49,23 @@ section.testimonial-section {
   background-color: steelblue;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 25px;
+  width: 25px;
+  color: black;
+}
+.icon-mobile-nav[name="close"] {
+  display: none;
+}
 .container_softwares {
   margin-top: 100px;
 }

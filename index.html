@@ -13,8 +13,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
     <title>omsoftwarestar</title>
   </head>
@@ -26,33 +31,50 @@
     
     <!-- Nav -->
     <section class="navbar-section" id="home">
-      <nav class="navbar">
+      <header class="navbar">
         <div class="container container_navbar">
-          <span class="navbar-brand mb-0 h1"><strong>OM</strong>Softwares</span>
-
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link nav_first" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a  class="nav-link" href="#about">About Us</a>
-            </li>
+          <span class="navbar-brand mb-0 h1"><img src="fulllogo_transparent.png" alt="" class="" height="250px" width="250px"></span>
+          
+          <nav class="main-nav">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link nav_first" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a  class="nav-link" href="#about">About Us</a>
+              </li>
             
-            <li class="nav-item">
-              <a class="nav-link" href="#Service">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary btn_last" href="#">Let's Talk</a>
-            </li>
-          </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#Service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary btn_last" href="#">Let's Talk</a>
+              </li>
+            </ul>
+          </nav>
+             
+           
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+          </button>
+         
         </div>
-      </nav>
+      </header>
+
+          
+            
+           
+              
+           
+          
+        
       <div class="container container_softwares">
         <div class="row">
           <div class="col-lg-6 col-md-6">
@@ -67,7 +89,7 @@
           </div>
 
           <div class="col-lg-6 col-md-6">
-            <img src="asd.webp" alt="" class="" />
+            <img src="img/asd.webp" alt="" class="" />
           </div>
         </div>
       </div>
@@ -173,7 +195,7 @@
             </ul>
           </div>
           <div class="col-lg-6 col-md-6">
-            <img src="112.png" alt="" class="" />
+            <img src="img/112.png" alt="" class="" />
           </div>
         </div>
       </div>
@@ -215,21 +237,21 @@
         </div>
         <div class="row">
           <div class="grid grid--3-col">
-            <img src="1.jpeg" alt="" class="" height="425px" width="425px" />
-            <img src="1.png" alt="" class="" height="425px" width="425px" />
-            <img src="2.jpeg" alt="" class="" height="425px" width="425px" />
-            <img src="3.jpg" alt="" class="" height="425px" width="425px" />
-            <img src="1.png" alt="" class="" height="425px" width="425px" />
-            <img src="4.jpg" alt="" class="" height="425px" width="425px" />
-            <img src="1.png" alt="" class="" height="425px" width="425px" />
+            <img src="img/1.jpeg" alt="" class="" height="425px" width="425px" />
+            <img src="img/1.png" alt="" class="" height="425px" width="425px" />
+            <img src="img/2.jpeg" alt="" class="" height="425px" width="425px" />
+            <img src="img/3.jpg" alt="" class="" height="425px" width="425px" />
+            <img src="img/1.png" alt="" class="" height="425px" width="425px" />
+            <img src="img/4.jpg" alt="" class="" height="425px" width="425px" />
+            <img src="img/1.png" alt="" class="" height="425px" width="425px" />
             <img
-              src="images.jpeg"
+              src="img/images.jpeg"
               alt=""
               class=""
               height="425px"
               width="425px"
             />
-            <img src="5.jpeg" alt="" class="" height="425px" width="425px" />
+            <img src="img/5.jpeg" alt="" class="" height="425px" width="425px" />
           </div>
         </div>
       </div>
@@ -331,14 +353,14 @@
                 </p>
                 
                 <div class="levin_text">
-                  <img src="phillip.jpeg" alt="" class="phillip_img" />
+                  <img src="img/phillip.jpeg" alt="" class="phillip_img" />
                   <div class="phillip_text">
                     <h4 class="phillip_levin">Phillip Levin</h4>
                     <small class="small">CEO / Creative IT</small>
                   </div>
                   <span class="icon_span"
                     ><img
-                      src="coma2.png"
+                      src="img/coma2.png"
                       alt=""
                       class=""
                       height="80px"
@@ -507,14 +529,14 @@
                   Rhoncus.
                 </p>
                 <div class="levin_text">
-                  <img src="hero.jpg" alt="" class="phillip_img" />
+                  <img src="img/hero.jpg" alt="" class="phillip_img" />
                   <div class="phillip_text">
                     <h4 class="phillip_levin">Phillip Levin</h4>
                     <small class="small">CEO / Creative IT</small>
                   </div>
                   <span class="icon_span"
                     ><img
-                      src="coma2.png"
+                      src="img/coma2.png"
                       alt=""
                       class=""
                       height="80px"
@@ -573,7 +595,7 @@
           </div>
           <div class="col-lg-6 col-md-6">
             <img
-              src="capabilities.jpeg"
+              src="img/capabilities.jpeg"
               alt=""
               class=""
               height="400px"
